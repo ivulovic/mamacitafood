@@ -1,0 +1,47 @@
+
+body {
+    font-feature-settings: "kern" on;
+}
+
+@font-face {
+    font-family: 'OrtoRNIDSRegular';
+    src: url('OrtoRNIDS-Regular.woff2') format('woff2'); 
+    font-style: normal;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'OrtoRNIDSItalic';
+    src: url('OrtoRNIDS-Italic.woff2') format('woff2');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'OrtoRNIDSBold';
+    src: url('OrtoRNIDS-Bold.woff2') format('woff2'); 
+    font-style: normal;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'OrtoRNIDSBoldItalic';
+    src: url('OrtoRNIDS-BoldItalic.woff2') format('woff2'); 
+    font-style: italic;
+    font-weight: bold;
+    text-rendering: optimizeLegibility;
+} 
+
+.p11 {font-size: 11px;}
+.p12 {font-size: 12px;}
+.p14 {font-size: 14px;}
+.p18 {font-size: 18px;}
+.p24 {font-size: 24px;}
+.p36 {font-size: 36px;}
+.p36 {font-size: 36px;}
+.p48 {font-size: 48px;}
+
+

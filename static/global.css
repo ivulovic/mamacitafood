@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dekko&family=Open+Sans:wght@400;600&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+	color: var(--text);
+	font-family: 'Open Sans', sans-serif;
+}
+html,
+body,
+#sapper,
+#sapper > main{
+	height: 100%;
+	overflow: auto;
+}

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="sr">
+
+<head>
+	<meta charset="utf-8">
+	<meta name='theme-color' content='#333333'>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<title>Mamacita</title>
+
+	<!-- Keywords-->
+	<meta name="keywords" content="dostava hrane, mladenovac, meksicka hrana, mamacita, mladenovac, food delivery, mexican food" />
+
+	<!-- Title -->
+	<meta name="title" content="Mamacita" />
+	<meta property="og:title" content="Mamacita" />
+	<meta property="twitter:title" content="Mamacita" />
+
+	<!-- Description -->
+	<meta name="description" content="Restoran meksičke hrane na srpski način." />
+	<meta property="og:description" content="Restoran meksičke hrane na srpski način." />
+	<meta property="twitter:description" content="Restoran meksičke hrane na srpski način." />
+
+	<!-- Image -->
+	<meta property="og:image" content="https://mamacitafood.com/logo_large.png" />
+	<meta property="twitter:image" content="https://mamacitafood.com/logo_large.png" />
+
+	<!-- Image alt -->
+	<meta property="og:image:alt" content="Logotip sajta Mamacita" />
+	<meta property="twitter:image:alt" content="Logotip sajta Mamacita" />
+
+	<!-- URL -->
+	<meta property="og:url" content="https://mamacitafood.com" />
+
+	<!-- Card-->
+	<meta property="og:type" content="website" />
+	<meta property="twitter:card" content="summary_large_image" />
+
+	<!-- Other-->
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+
+	%sapper.base%
+
+	<link rel="stylesheet" href="global.css">
+	<link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<!-- Sapper creates a <script> tag containing `src/client.js`
+	     and anything else it needs to hydrate the app and
+	     initialise the router -->
+	%sapper.scripts%
+
+	<!-- Sapper generates a <style> tag containing critical CSS
+	     for the current page. CSS for the rest of the app is
+	     lazily loaded when it precaches secondary pages -->
+	%sapper.styles%
+
+	<!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+	%sapper.head%
+</head>
+
+<body>
+	<!-- The application will be rendered inside this element,
+	     because `src/client.js` references it -->
+	<div id="sapper">%sapper.html%</div>
+</body>
+
+</html>
