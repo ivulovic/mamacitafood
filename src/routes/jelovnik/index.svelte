@@ -197,10 +197,10 @@
         </a><br />
         <a
           target="new"
-          href="https://www.google.com/maps/search/?api=1&query=vojvode+putnika+7+mladenovac"
+          href="https://www.google.com/maps/search/?api=1&query=vojvode+putnika+7b+mladenovac"
           class="description">
           <MapPin />
-          Vojvode Putnika 7, Mladenovac
+          Vojvode Putnika 7b, Mladenovac
         </a>
       </div>
     </div>

@@ -83,7 +83,7 @@
 			<Button target="new" title="Naruči" link="https://mamacitafood.com" />
 		</div>
 		<div class="row socials">
-			<a href="https://instagram.com/mamacitafood" target="new">
+			<a href="https://www.instagram.com/mamacita.kantina/" target="new">
 				<Instagram />
 			</a>
 			<a href="https://facebook.com/mamacitafood" target="new">
